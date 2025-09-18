@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tyuiu.LavrentevVA.Sprint1.Task0.V0.Lib;
 
-namespace Tyuiu.LavrentevVA.Sprint1.Task0.V0
+namespace Tyuiu.LavrentevVA.Sprint1.Task0.V11
 {
     internal class Program
     {
@@ -18,7 +18,7 @@ namespace Tyuiu.LavrentevVA.Sprint1.Task0.V0
             Console.WriteLine("* Спринт #1                                                       *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                *");
             Console.WriteLine("* Задание #0                                                      *");
-            Console.WriteLine("* Вариант #0                                                      *");
+            Console.WriteLine("* Вариант #11                                                      *");
             Console.WriteLine("* Выполнил: Лаврентьев В. А. | ИСПБ-25-1                          *");
             Console.WriteLine("*******************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                        *");

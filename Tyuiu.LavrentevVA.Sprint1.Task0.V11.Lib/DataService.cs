@@ -2,7 +2,7 @@
 
 namespace Tyuiu.LavrentevVA.Sprint1.Task0.V11.Lib
 {
-    public class DataService : ISprint1Task0V0
+    public class DataService : ISprint1Task0V11
     {
         public double Calculate()
         {

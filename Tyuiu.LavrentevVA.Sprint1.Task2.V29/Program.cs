@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.LavrentevVA.Sprint1.Task1.V21.Lib;
+using Tyuiu.LavrentevVA.Sprint1.Task2.V29.Lib;
 
-namespace Tyuiu.LavrentevVA.Sprint1.Task1.V21
+namespace Tyuiu.LavrentevVA.Sprint1.Task2.V29
 {
     internal class Program
     {
@@ -17,35 +17,31 @@ namespace Tyuiu.LavrentevVA.Sprint1.Task1.V21
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #21                                                             *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #29                                                             *");
             Console.WriteLine("* Выполнил: Лаврентьев В. А. | ИСПБ-25-1                                  *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* вычисляет результат по формуле (x*y)/(3+y) и печатает его на экране.    *");
+            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОРДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("***************************************************************************");
 
-            double x, y;
+            int x;
 
             Console.WriteLine("Введите значение X:");
-            x = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine("Введите значение y:");
-            y = Convert.ToDouble(Console.ReadLine());
+            x = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y));
+            Console.WriteLine("Время в минутах - " + ds.ConvertSecondsToHours(x) + " мин.");
 
             Console.ReadLine();
-
-
         }
     }
 }
+

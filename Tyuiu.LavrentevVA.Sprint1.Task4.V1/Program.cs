@@ -26,7 +26,7 @@ namespace Tyuiu.LavrentevVA.Sprint1.Task4.V1
             Console.WriteLine("* вычисляет результат по формуле и печатает его на экране                 *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* ИСХОРДНЫЕ ДАННЫЕ:                                                       *");
+            Console.WriteLine("* ИСХОРДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
             int x;

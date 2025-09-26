@@ -26,7 +26,7 @@ namespace Tyuiu.LavrentevVA.Sprint1.Task1.V21
             Console.WriteLine("* вычисляет результат по формуле (x*y)/(3+y) и печатает его на экране.    *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* ИСХОРДНЫЕ ДАННЫЕ:                                                       *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
             double x, y;

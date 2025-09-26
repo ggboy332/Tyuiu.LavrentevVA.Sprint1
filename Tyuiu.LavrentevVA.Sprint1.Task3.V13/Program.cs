@@ -26,7 +26,7 @@ namespace Tyuiu.LavrentevVA.Sprint1.Task3.V13
             Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране.             *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* ИСХОРДНЫЕ ДАННЫЕ:                                                       *");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
             double number = 264;
